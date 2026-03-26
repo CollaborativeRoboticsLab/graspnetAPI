@@ -12,7 +12,7 @@ setup(
     url='https://graspnet.net',
     packages=find_packages(),
     install_requires=[
-        'numpy',
+        'numpy==1.26.4',
         'scipy',
         'transforms3d',
         'open3d',
